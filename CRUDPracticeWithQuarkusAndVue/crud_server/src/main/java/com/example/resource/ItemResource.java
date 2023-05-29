@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.resource;
 
 import com.example.entity.Item;
 import com.example.repository.ItemRepository;
@@ -13,7 +13,7 @@ import java.util.List;
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @Transactional
-public class ItemController {
+public class ItemResource {
     @Inject
     ItemRepository itemRepository;
 
@@ -29,9 +29,7 @@ public class ItemController {
     }
 
     @POST
-    public void createItem(Item item) {
-        itemRepository.persist(item);
-    }
+    public void createItem(Item item) { itemRepository.persist(item); }
 
     @PUT
     @Path("{id}")

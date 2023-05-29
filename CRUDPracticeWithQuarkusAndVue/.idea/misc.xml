@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/CRUDServer/pom.xml" />
+        <option value="$PROJECT_DIR$/old_CRUDServer/pom.xml" />
+        <option value="$PROJECT_DIR$/crud_server/pom.xml" />
       </list>
     </option>
   </component>
