@@ -16,11 +16,11 @@ public class Reservation {
 
     private String userName;
 
-    private LocalDate reservationDate;
+    private LocalDate date;
 
-    private LocalTime reservationStartTime;
+    private LocalTime startTime;
 
-    private LocalTime reservationEndTime;
+    private LocalTime endTime;
 
     private String purpose;
 
@@ -38,25 +38,25 @@ public class Reservation {
         this.userName = userName;
     }
 
-    public LocalDate getReservationDate() {
-        return reservationDate;
+    public LocalDate getDate() {
+        return date;
     }
-    public void setReservationDate(LocalDate reservationDate) {
-        this.reservationDate = reservationDate;
-    }
-
-    public LocalTime getReservationStartTime() {
-        return reservationStartTime;
-    }
-    public void setReservationStartTime(LocalTime reservationStartTime) {
-        this.reservationStartTime = reservationStartTime;
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 
-    public LocalTime getReservationEndTime() {
-        return reservationEndTime;
+    public LocalTime getStartTime() {
+        return startTime;
     }
-    public void setReservationEndTime(LocalTime reservationEndTime) {
-        this.reservationEndTime = reservationEndTime;
+    public void setStartTime(LocalTime startTime) {
+        this.startTime = startTime;
+    }
+
+    public LocalTime getEndTime() {
+        return endTime;
+    }
+    public void setEndTime(LocalTime endTime) {
+        this.endTime = endTime;
     }
 
     public String getPurpose() {

@@ -38,9 +38,9 @@ public class ReservationApi {
     public void updateReservation(@PathParam("id") Long id, Reservation reservation) {
         Reservation updateReservation = reservationRepository.findById(id);
         updateReservation.setUserName(reservation.getUserName());
-        updateReservation.setReservationDate(reservation.getReservationDate());
-        updateReservation.setReservationStartTime(reservation.getReservationStartTime());
-        updateReservation.setReservationEndTime(reservation.getReservationEndTime());
+        updateReservation.setDate(reservation.getDate());
+        updateReservation.setStartTime(reservation.getStartTime());
+        updateReservation.setEndTime(reservation.getEndTime());
         updateReservation.setPurpose(reservation.getPurpose());
         reservationRepository.persist(updateReservation);
     }
