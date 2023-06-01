@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue/crud_server/pom.xml" />
+        <option value="$PROJECT_DIR$/ReservationSystem/reservation_system_server/pom.xml" />
       </list>
     </option>
   </component>

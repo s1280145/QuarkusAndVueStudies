@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue/crud_server/CRUDServer.iml" filepath="$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue/crud_server/CRUDServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/QuarkusAndVueStudies.iml" filepath="$PROJECT_DIR$/.idea/QuarkusAndVueStudies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReservationSystem/reservation_system_server/reservation_system_server.iml" filepath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/reservation_system_server.iml" />
     </modules>
   </component>
 </project>

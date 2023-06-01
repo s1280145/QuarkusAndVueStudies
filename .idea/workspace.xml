@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="finished crud practice">
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="finished client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/api/ReservationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/api/ReservationApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/repository/ReservationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/service/ReservationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Vue Single File Component" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +61,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/saury/Desktop/QuarkusAndVueStudies",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -71,7 +78,7 @@
       <recent name="$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Quarkus.CRUDServer">
     <configuration name="CRUDServer" type="QuarkusRunConfigurationType" factoryName="Quarkus">
       <module name="CRUDServer" />
       <QsMavenRunConfiguration>
@@ -94,6 +101,37 @@
               </option>
               <option name="resolveToWorkspace" value="false" />
               <option name="workingDirPath" value="$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue/crud_server" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reservation_system_server" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="reservation_system_server" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/ReservationSystem/reservation_system_server" />
             </MavenRunnerParameters>
           </option>
         </MavenSettings>
@@ -143,7 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685524386406</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished server">
+      <created>1685529197293</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685529197293</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finished server">
+      <created>1685529212761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685529212761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished client">
+      <created>1685533939923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685533939923</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +235,9 @@
     <MESSAGE value="add some file" />
     <MESSAGE value="modified some file" />
     <MESSAGE value="finished crud practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished crud practice" />
+    <MESSAGE value="modified .xml file" />
+    <MESSAGE value="finished server" />
+    <MESSAGE value="finished client" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished client" />
   </component>
 </project>
