@@ -24,6 +24,8 @@ public class Reservation {
 
     private String purpose;
 
+    private boolean usageSituation;
+
     public Long getId() {
         return id;
     }
@@ -64,5 +66,12 @@ public class Reservation {
     }
     public void setPurpose(String purpose) {
         this.purpose = purpose;
+    }
+
+    public boolean getUsageSituation() {
+        return usageSituation;
+    }
+    public void setUsageSituation(boolean usageSituation) {
+        this.usageSituation = usageSituation;
     }
 }

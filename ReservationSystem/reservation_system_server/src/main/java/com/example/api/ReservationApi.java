@@ -2,6 +2,7 @@ package com.example.api;
 
 import com.example.entity.Reservation;
 import com.example.repository.ReservationRepository;
+import com.example.service.ReservationService;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
@@ -17,6 +18,9 @@ public class ReservationApi {
     @Inject
     ReservationRepository reservationRepository;
 
+    @Inject
+    ReservationService reservationService;
+
     @GET
     @Path("{id}")
     public Reservation getReservation(@PathParam("id") Long id) {
@@ -24,13 +28,13 @@ public class ReservationApi {
     }
 
     @GET
-    public List<Reservation> getReservationList() {
-        return reservationRepository.listAll();
+    public List<Reservation> getReservationListByMonth() {
+        return reservationService.createReservationListByMonth();
     }
 
     @POST
     public void createReservation(Reservation reservation) {
-        reservationRepository.persist(reservation);
+        reservationService.createReservation(reservation);
     }
 
     @PUT

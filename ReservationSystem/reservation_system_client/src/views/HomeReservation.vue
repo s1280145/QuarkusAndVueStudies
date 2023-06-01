@@ -5,6 +5,7 @@
     <table class="table">
       <thead>
       <tr>
+        <th scope="col">status</th>
         <th scope="col">date</th>
         <th scope="col">start time</th>
         <th scope="col">end time</th>
@@ -15,6 +16,8 @@
       </thead>
       <tbody>
       <tr v-for="reservation in reservations" :key="reservation.id">
+        <td v-if="reservation.usageSituation" class="text-success h3"><b>using</b></td>
+        <td v-else>not use</td>
         <td>{{reservation.date}}</td>
         <td>{{reservation.startTime}}</td>
         <td>{{reservation.endTime}}</td>
@@ -39,10 +42,8 @@ export default {
       reservations: []
     }
   },
-  mounted() {
-    let uri = "/reservations";
-    axios.get(uri)
-        .then(response => { this.reservations = response.data })
+  created: function () {
+    this.listReservations()
   },
   methods: {
     listReservations() {

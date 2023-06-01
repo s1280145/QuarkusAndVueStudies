@@ -28,6 +28,7 @@
               <label>Purpose:</label>
               <input type="text" class="form-control" v-model="reservation.purpose" />
             </div>
+            <input type="hidden" class="form-control" name="reservation.usageSituation" value="0" />
             <div class="form-group">
               <input type="submit" class="btn btn-primary mt-5" value="Add Reservation" />
             </div>
@@ -43,7 +44,8 @@ import axios from 'axios'
 export default {
   data() {
     return {
-      reservation: {}
+      reservation: {},
+      massage: ""
     }
   },
   methods: {
