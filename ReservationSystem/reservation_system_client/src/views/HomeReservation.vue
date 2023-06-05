@@ -1,8 +1,11 @@
 <template>
   <div>
-    <h1>Reservations</h1>
-    <button v-on:click="moveToCreate" class="btn btn-primary">New Reservation</button>
-    <table class="table">
+    <h1 class="mt-5">Reservations</h1>
+    <div class="d-flex justify-content-between">
+      <button v-on:click="pageReload" class="btn btn-primary ms-5">Reload</button>
+      <button v-on:click="moveToCreate" class="btn btn-primary me-5">New Reservation</button>
+    </div>
+    <table class="table mt-3">
       <thead>
       <tr>
         <th scope="col">status</th>
@@ -46,6 +49,9 @@ export default {
     this.listReservations()
   },
   methods: {
+    pageReload() {
+      this.$router.go({path: this.$router.currentRoute.path, force: true})
+    },
     listReservations() {
       let uri = "/reservations";
       axios.get(uri)

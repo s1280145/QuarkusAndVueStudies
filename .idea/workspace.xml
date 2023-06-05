@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="add feature that recognize usage situation">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_quarkus_resteasy_reactive_3_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_quarkus_resteasy_reactive_common_3_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_resteasy_reactive_resteasy_reactive_3_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_resteasy_reactive_resteasy_reactive_common_3_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_resteasy_reactive_resteasy_reactive_common_types_3_0_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_quarkus_resteasy_reactive_resteasy_reactive_vertx_3_0_4_Final.xml" beforeDir="false" />
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified some file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +107,31 @@
     </configuration>
     <configuration name="reservation_system_server" type="QuarkusRunConfigurationType" factoryName="Quarkus">
       <module name="reservation_system_server" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/ReservationSystem/reservation_system_server" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +140,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bed2cbbe-e47a-4734-9be0-df74cdd216f4" name="Changes" comment="" />
+      <changelist id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified some file" />
       <created>1685353305189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685353305189</updated>
       <workItem from="1685353307538" duration="4019000" />
       <workItem from="1685357339247" duration="86000" />
+      <workItem from="1685933985666" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="add some file">
       <created>1685370269501</created>
@@ -183,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685606358686</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modified some file">
+      <created>1685797348629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797348629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,12 +243,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some file" />
-    <MESSAGE value="modified some file" />
     <MESSAGE value="finished crud practice" />
     <MESSAGE value="modified .xml file" />
     <MESSAGE value="finished server" />
     <MESSAGE value="finished client" />
     <MESSAGE value="add feature that recognize usage situation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature that recognize usage situation" />
+    <MESSAGE value="modified some file" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified some file" />
   </component>
 </project>
