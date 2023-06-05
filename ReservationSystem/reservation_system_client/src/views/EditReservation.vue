@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-5">
     <div class="card">
       <div class="card-header">
         <h3>Edit Reservation</h3>
