@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="add feature that recognize usage situation" />
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified some file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,26 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/saury/Desktop/QuarkusAndVueStudies",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/saury/Desktop/QuarkusAndVueStudies&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CRUDPracticeWithQuarkusAndVue" />
@@ -136,13 +140,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bed2cbbe-e47a-4734-9be0-df74cdd216f4" name="Changes" comment="" />
+      <changelist id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified some file" />
       <created>1685353305189</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685353305189</updated>
       <workItem from="1685353307538" duration="4019000" />
       <workItem from="1685357339247" duration="86000" />
+      <workItem from="1685933985666" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="add some file">
       <created>1685370269501</created>
@@ -200,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685606358686</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modified some file">
+      <created>1685797348629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797348629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,12 +243,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some file" />
-    <MESSAGE value="modified some file" />
     <MESSAGE value="finished crud practice" />
     <MESSAGE value="modified .xml file" />
     <MESSAGE value="finished server" />
     <MESSAGE value="finished client" />
     <MESSAGE value="add feature that recognize usage situation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature that recognize usage situation" />
+    <MESSAGE value="modified some file" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified some file" />
   </component>
 </project>
