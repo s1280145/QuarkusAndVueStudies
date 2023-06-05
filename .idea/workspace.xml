@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified some file">
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="add feature that you can reload home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/EditReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/EditReservation.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,7 @@
       <updated>1685353305189</updated>
       <workItem from="1685353307538" duration="4019000" />
       <workItem from="1685357339247" duration="86000" />
-      <workItem from="1685933985666" duration="1011000" />
+      <workItem from="1685933985666" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="add some file">
       <created>1685370269501</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685797348629</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add feature that you can reload home page">
+      <created>1685935105259</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685935105259</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +256,7 @@
     <MESSAGE value="finished client" />
     <MESSAGE value="add feature that recognize usage situation" />
     <MESSAGE value="modified some file" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified some file" />
+    <MESSAGE value="add feature that you can reload home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature that you can reload home page" />
   </component>
 </project>

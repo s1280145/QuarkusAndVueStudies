@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Reservation System</h1>
-    <div class="container">
+    <div class="container mt-5">
       <div class="card">
         <div class="card-header">
           <h3>Add Reservation</h3>
