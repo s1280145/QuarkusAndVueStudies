@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="add feature that you can reload home page">
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified layout">
+      <change afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/TestValidation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/EditReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/EditReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -148,6 +151,11 @@
       <workItem from="1685353307538" duration="4019000" />
       <workItem from="1685357339247" duration="86000" />
       <workItem from="1685933985666" duration="1322000" />
+      <workItem from="1685944047394" duration="1545000" />
+      <workItem from="1685953159754" duration="10000" />
+      <workItem from="1686553463352" duration="386000" />
+      <workItem from="1686553995156" duration="602000" />
+      <workItem from="1686675020268" duration="7901000" />
     </task>
     <task id="LOCAL-00001" summary="add some file">
       <created>1685370269501</created>
