@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CreateReservation from "@/views/CreateReservation";
 import HomeReservation from "@/views/HomeReservation";
 import EditReservation from "@/views/EditReservation";
+import TestValidation from "@/views/TestValidation";
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/edit/:id',
     name: 'edit',
     component: EditReservation
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: TestValidation
   }
 ]
 

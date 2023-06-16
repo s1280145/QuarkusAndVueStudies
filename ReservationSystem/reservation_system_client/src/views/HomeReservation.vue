@@ -12,6 +12,7 @@
         <th scope="col">date</th>
         <th scope="col">start time</th>
         <th scope="col">end time</th>
+        <th scope="col">user</th>
         <th scope="col">purpose</th>
         <th></th>
         <th></th>
@@ -24,6 +25,7 @@
         <td>{{reservation.date}}</td>
         <td>{{reservation.startTime}}</td>
         <td>{{reservation.endTime}}</td>
+        <td>{{reservation.userName}}</td>
         <td>{{reservation.purpose}}</td>
         <td>
           <button v-on:click="moveToEdit(reservation.id)" class="btn btn-primary">Edit</button>
