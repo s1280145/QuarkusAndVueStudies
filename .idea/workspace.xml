@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="modified layout">
-      <change afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/TestValidation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/CreateReservation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_client/src/views/HomeReservation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationSystem/reservation_system_server/src/main/java/com/example/entity/Reservation.java" afterDir="false" />
-    </list>
+    <list default="true" id="0209fdb9-b7b8-427d-88e6-b93b77f417b1" name="Changes" comment="add validation function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +148,7 @@
       <workItem from="1685953159754" duration="10000" />
       <workItem from="1686553463352" duration="386000" />
       <workItem from="1686553995156" duration="602000" />
-      <workItem from="1686675020268" duration="7901000" />
+      <workItem from="1686675020268" duration="8003000" />
     </task>
     <task id="LOCAL-00001" summary="add some file">
       <created>1685370269501</created>
@@ -227,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685935105259</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add validation function">
+      <created>1686719320822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686719320822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +265,7 @@
     <MESSAGE value="add feature that recognize usage situation" />
     <MESSAGE value="modified some file" />
     <MESSAGE value="add feature that you can reload home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature that you can reload home page" />
+    <MESSAGE value="add validation function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation function" />
   </component>
 </project>
